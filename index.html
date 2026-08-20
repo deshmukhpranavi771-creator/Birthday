@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Brother 🎂💙</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti"></canvas>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">💙 Brother's Birthday</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#memories">Memories</a>
+            <a href="#photos">Photos</a>
+            <a href="#message">Message</a>
+        </div>
+    </nav>
+
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <div class="cake">🎂</div>
+
+            <h1>
+                Happy Birthday
+                <span>My Crazy Brother! 💙</span>
+            </h1>
+
+            <p class="subtitle">
+                Warning ⚠️: This website contains
+                excessive amounts of love, laughter
+                and embarrassing memories! 😂
+            </p>
+
+
+            <!-- Countdown -->
+            <h2>🎁 The Big Day Is Coming!</h2>
+
+            <div class="countdown">
+
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>Days</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>Hours</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>Minutes</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>Seconds</small>
+                </div>
+
+            </div>
+
+
+            <!-- Buttons -->
+            <div class="buttons">
+
+                <button onclick="celebrate()">
+                    🎉 Click For Your Surprise 🎉
+                </button>
+
+                <button onclick="toggleMusic()" class="music-btn">
+                    🎵 Play Music
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT BROTHER -->
+    <section class="about">
+
+        <h2>👑 The Birthday Boy</h2>
+
+        <div class="about-card">
+
+            <div class="emoji-big">
+                🧑🏻‍💻
+            </div>
+
+            <div>
+
+                <h3>My Favorite Irritating Person ❤️</h3>
+
+                <p>
+                    You are not just my brother.
+                    You are my personal comedian,
+                    professional irritator,
+                    secret keeper, partner-in-crime
+                    and sometimes... my unpaid bodyguard! 😂
+                </p>
+
+                <p>
+                    Life would definitely be quieter
+                    without you... but honestly,
+                    who wants quiet? 😭😂
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMORIES -->
+    <section id="memories" class="memories">
+
+        <h2>😂 Our Funny Memories</h2>
+
+        <p class="section-subtitle">
+            Some memories deserve to stay private...
+            but unfortunately this website exists. 😎
+        </p>
+
+
+        <div class="memory-container">
+
+            <div class="memory-card">
+                <div class="memory-icon">😂</div>
+                <h3>The Fighting Era</h3>
+                <p>
+                    We used to fight over the smallest
+                    things and then act like nothing
+                    happened five minutes later.
+                </p>
+            </div>
+
+
+            <div class="memory-card">
+                <div class="memory-icon">🍕</div>
+                <h3>The Food Thief</h3>
+                <p>
+                    My food somehow becomes your food
+                    the moment I leave the room.
+                    Coincidence? I THINK NOT! 😭
+                </p>
+            </div>
+
+
+            <div class="memory-card">
+                <div class="memory-icon">📱</div>
+                <h3>Give Me Your Phone!</h3>
+                <p>
+                    One minute you are peacefully
+                    using your phone...
+                    next minute I am investigating it. 😂
+                </p>
+            </div>
+
+
+            <div class="memory-card">
+                <div class="memory-icon">🤣</div>
+                <h3>Unlimited Laughs</h3>
+                <p>
+                    Somehow even our most boring
+                    moments become hilarious when
+                    we are together.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PHOTOS -->
+    <section id="photos" class="photos">
+
+        <h2>📸 Our Memories</h2>
+
+        <p class="section-subtitle">
+            A small collection of embarrassing evidence. 😌
+        </p>
+
+
+        <div class="photo-container">
+
+            <img id="memoryPhoto"
+                 src="c:\Users\Lenovo\Pictures\pp4.jpg"
+                 alt="Brother memory">
+            
+             
+        </div>
+
+
+
+        <div class="photo-controls">
+
+            <button onclick="previousPhoto()">
+                ⬅️ Previous
+            </button>
+
+            <button onclick="nextPhoto()">
+                Next Photo ➡️
+            </button>
+
+        </div>
+
+
+        <p id="photoCaption">
+            Memory #1 ❤️
+        </p>
+
+    </section>
+
+
+    <!-- MESSAGE -->
+    <section id="message" class="message">
+
+        <div class="letter">
+
+            <div class="letter-icon">💌</div>
+
+            <h2>Dear Brother ❤️</h2>
+
+            <p>
+                Happy Birthday to the person who has
+                been annoying me since forever...
+                and somehow still manages to be one
+                of my favorite people. 😂
+            </p>
+
+            <p>
+                We may fight, argue, annoy each other
+                and steal each other's food...
+                but at the end of the day,
+                you will always be one of the most
+                special people in my life.  ❤️
+            </p>
+
+            <p>You walk around like you're the tallest person on the planet,as if being taller than your sister is some huge achievement!😂</p>
+
+            <p>No matter how tall you become,you'll always be the same annoying brother who loves to irritate me,teasing me,sometimes giving me mature advices just like a big bro 😂❤️</p>
+            <p>
+                I hope your life is filled with
+                happiness, success, laughter,opportunities,
+                amazing adventures and obviously
+                enough cake to compensate for all the calories you'll pretend don't exist!😂🎂
+            </p>
+            <p>Once again, Happy Birthday to my handsome, tall, overconfident, part-time comedian and full-time advice-giving brother! 🎂😂❤️</p>
+
+            <p>
+                Never stop being the crazy,
+                funny and caring person you are.
+            </p>
+
+            <h3>
+                Love you, bro! 🫶🏻💙
+            </h3>
+
+            <div class="signature">
+                — Your annoying sister 😌😂
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FUNNY SECTION -->
+    <section class="funny">
+
+        <h2>🚨 Important Birthday Announcement 🚨</h2>
+
+        <div class="announcement">
+
+            <p>
+                After extensive research conducted by
+                absolutely nobody...
+            </p>
+
+            <h3>
+                YOU ARE OFFICIALLY GETTING OLDER! 😂
+            </h3>
+
+            <p>
+                Unfortunately, there is no known cure.
+                Cake may temporarily reduce the symptoms. 🎂
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FINAL SURPRISE -->
+    <section class="final">
+
+        <h2>🎁 One Last Thing...</h2>
+
+        <p>
+            Ready for your birthday surprise?
+        </p>
+
+        <button onclick="showMessage()">
+            💙 Open Your Surprise 💙
+        </button>
+
+    </section>
+
+
+    <!-- Popup -->
+    <div id="popup" class="popup">
+
+        <div class="popup-content">
+
+            <span class="close"
+                  onclick="closePopup()">
+                ×
+            </span>
+
+            <div class="popup-cake">🎂</div>
+
+            <h2>HAPPY BIRTHDAY! 🎉</h2>
+
+            <p>
+                You are officially one year
+                more experienced at annoying me! 😂
+            </p>
+
+            <h3>
+                Stay happy. Stay crazy.
+                Stay awesome. 💙
+            </h3>
+
+            <div class="hearts">
+                ❤️ 💙 💖 💜 💛
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Audio -->
+    <audio id="birthdayMusic"
+           loop>
+        <source src="C:\Users\Lenovo\Downloads\nastelbom-happy-birthday-495860.mp3"
+                type="audio/mpeg">
+    </audio>
+
+
+    <footer>
+
+        <p>
+            Made with ❤️, memories & a little bit
+            of sibling madness 😂
+        </p>
+
+        <p>
+            © 2026 Birthday Surprise 🎂
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
